@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92591A4B1B2FC65D0096C04F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92591A4A1B2FC65D0096C04F /* AudioToolbox.framework */; };
+		92591A501B301F410096C04F /* girl_smile.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92591A4F1B301F410096C04F /* girl_smile.wav */; };
+		92591A521B3020800096C04F /* shuqing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92591A511B3020800096C04F /* shuqing.wav */; };
+		92591A571B3020E40096C04F /* game1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92591A531B3020E40096C04F /* game1.mp3 */; };
+		92591A581B3020E40096C04F /* game2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92591A541B3020E40096C04F /* game2.mp3 */; };
+		92591A591B3020E40096C04F /* game3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92591A551B3020E40096C04F /* game3.mp3 */; };
+		92591A5A1B3020E40096C04F /* game4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92591A561B3020E40096C04F /* game4.mp3 */; };
 		92654A991B298F4100CFF248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92654A981B298F4100CFF248 /* main.m */; };
 		92654A9C1B298F4100CFF248 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92654A9B1B298F4100CFF248 /* AppDelegate.m */; };
-		92654A9F1B298F4100CFF248 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92654A9E1B298F4100CFF248 /* ViewController.m */; };
-		92654AA21B298F4100CFF248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92654AA01B298F4100CFF248 /* Main.storyboard */; };
+		92654A9F1B298F4100CFF248 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92654A9E1B298F4100CFF248 /* MainController.m */; };
 		92654AA41B298F4100CFF248 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92654AA31B298F4100CFF248 /* Images.xcassets */; };
-		92654AA71B298F4100CFF248 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92654AA51B298F4100CFF248 /* LaunchScreen.xib */; };
 		92654AB31B298F4100CFF248 /* guaguaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92654AB21B298F4100CFF248 /* guaguaTests.m */; };
+		92654ABE1B298FB000CFF248 /* PLLScrathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92654ABD1B298FB000CFF248 /* PLLScrathView.m */; };
+		92654AC31B29924800CFF248 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92654AC01B29924800CFF248 /* Default-568h@2x.png */; };
+		92654AC41B29924800CFF248 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 92654AC11B29924800CFF248 /* Default.png */; };
+		92654AC51B29924800CFF248 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92654AC21B29924800CFF248 /* Default@2x.png */; };
+		92654ACD1B2ADF0700CFF248 /* MultiMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 92654ACC1B2ADF0700CFF248 /* MultiMutableArray.m */; };
+		92654AD01B2AEBEB00CFF248 /* selectCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92654ACF1B2AEBEB00CFF248 /* selectCharacterViewController.m */; };
+		92793D751B2C92AA007B9867 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92793D741B2C92AA007B9867 /* WelcomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +39,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92591A4A1B2FC65D0096C04F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		92591A4F1B301F410096C04F /* girl_smile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = girl_smile.wav; sourceTree = "<group>"; };
+		92591A511B3020800096C04F /* shuqing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shuqing.wav; sourceTree = "<group>"; };
+		92591A531B3020E40096C04F /* game1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game1.mp3; sourceTree = "<group>"; };
+		92591A541B3020E40096C04F /* game2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game2.mp3; sourceTree = "<group>"; };
+		92591A551B3020E40096C04F /* game3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game3.mp3; sourceTree = "<group>"; };
+		92591A561B3020E40096C04F /* game4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game4.mp3; sourceTree = "<group>"; };
 		92654A931B298F4100CFF248 /* guagua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guagua.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92654A971B298F4100CFF248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92654A981B298F4100CFF248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92654A9A1B298F4100CFF248 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		92654A9B1B298F4100CFF248 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		92654A9D1B298F4100CFF248 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		92654A9E1B298F4100CFF248 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		92654AA11B298F4100CFF248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92654A9D1B298F4100CFF248 /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		92654A9E1B298F4100CFF248 /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 		92654AA31B298F4100CFF248 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		92654AA61B298F4100CFF248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		92654AAC1B298F4100CFF248 /* guaguaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guaguaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92654AB11B298F4100CFF248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92654AB21B298F4100CFF248 /* guaguaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guaguaTests.m; sourceTree = "<group>"; };
+		92654ABC1B298FB000CFF248 /* PLLScrathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLLScrathView.h; sourceTree = "<group>"; };
+		92654ABD1B298FB000CFF248 /* PLLScrathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLLScrathView.m; sourceTree = "<group>"; };
+		92654AC01B29924800CFF248 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		92654AC11B29924800CFF248 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		92654AC21B29924800CFF248 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		92654AC61B29947200CFF248 /* guagua-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "guagua-Prefix.pch"; sourceTree = "<group>"; };
+		92654ACB1B2ADF0700CFF248 /* MultiMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiMutableArray.h; sourceTree = "<group>"; };
+		92654ACC1B2ADF0700CFF248 /* MultiMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiMutableArray.m; sourceTree = "<group>"; };
+		92654ACE1B2AEBEB00CFF248 /* selectCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectCharacterViewController.h; sourceTree = "<group>"; };
+		92654ACF1B2AEBEB00CFF248 /* selectCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectCharacterViewController.m; sourceTree = "<group>"; };
+		92793D731B2C92AA007B9867 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		92793D741B2C92AA007B9867 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92591A4B1B2FC65D0096C04F /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92591A4C1B2FCF1D0096C04F /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				92591A531B3020E40096C04F /* game1.mp3 */,
+				92591A541B3020E40096C04F /* game2.mp3 */,
+				92591A551B3020E40096C04F /* game3.mp3 */,
+				92591A561B3020E40096C04F /* game4.mp3 */,
+				92591A511B3020800096C04F /* shuqing.wav */,
+				92591A4F1B301F410096C04F /* girl_smile.wav */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
 		92654A8A1B298F4100CFF248 = {
 			isa = PBXGroup;
 			children = (
+				92591A4A1B2FC65D0096C04F /* AudioToolbox.framework */,
 				92654A951B298F4100CFF248 /* guagua */,
 				92654AAF1B298F4100CFF248 /* guaguaTests */,
 				92654A941B298F4100CFF248 /* Products */,
@@ -81,14 +125,21 @@
 		92654A951B298F4100CFF248 /* guagua */ = {
 			isa = PBXGroup;
 			children = (
+				92591A4C1B2FCF1D0096C04F /* sound */,
 				92654A9A1B298F4100CFF248 /* AppDelegate.h */,
 				92654A9B1B298F4100CFF248 /* AppDelegate.m */,
-				92654A9D1B298F4100CFF248 /* ViewController.h */,
-				92654A9E1B298F4100CFF248 /* ViewController.m */,
-				92654AA01B298F4100CFF248 /* Main.storyboard */,
+				92654A9D1B298F4100CFF248 /* MainController.h */,
+				92654A9E1B298F4100CFF248 /* MainController.m */,
 				92654AA31B298F4100CFF248 /* Images.xcassets */,
-				92654AA51B298F4100CFF248 /* LaunchScreen.xib */,
 				92654A961B298F4100CFF248 /* Supporting Files */,
+				92654ABC1B298FB000CFF248 /* PLLScrathView.h */,
+				92654ABD1B298FB000CFF248 /* PLLScrathView.m */,
+				92654ACB1B2ADF0700CFF248 /* MultiMutableArray.h */,
+				92654ACC1B2ADF0700CFF248 /* MultiMutableArray.m */,
+				92654ACE1B2AEBEB00CFF248 /* selectCharacterViewController.h */,
+				92654ACF1B2AEBEB00CFF248 /* selectCharacterViewController.m */,
+				92793D731B2C92AA007B9867 /* WelcomeViewController.h */,
+				92793D741B2C92AA007B9867 /* WelcomeViewController.m */,
 			);
 			path = guagua;
 			sourceTree = "<group>";
@@ -96,8 +147,12 @@
 		92654A961B298F4100CFF248 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92654AC01B29924800CFF248 /* Default-568h@2x.png */,
+				92654AC11B29924800CFF248 /* Default.png */,
+				92654AC21B29924800CFF248 /* Default@2x.png */,
 				92654A971B298F4100CFF248 /* Info.plist */,
 				92654A981B298F4100CFF248 /* main.m */,
+				92654AC61B29947200CFF248 /* guagua-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -199,9 +254,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92654AA21B298F4100CFF248 /* Main.storyboard in Resources */,
-				92654AA71B298F4100CFF248 /* LaunchScreen.xib in Resources */,
+				92591A571B3020E40096C04F /* game1.mp3 in Resources */,
+				92591A591B3020E40096C04F /* game3.mp3 in Resources */,
+				92654AC51B29924800CFF248 /* Default@2x.png in Resources */,
 				92654AA41B298F4100CFF248 /* Images.xcassets in Resources */,
+				92591A581B3020E40096C04F /* game2.mp3 in Resources */,
+				92591A501B301F410096C04F /* girl_smile.wav in Resources */,
+				92654AC41B29924800CFF248 /* Default.png in Resources */,
+				92654AC31B29924800CFF248 /* Default-568h@2x.png in Resources */,
+				92591A521B3020800096C04F /* shuqing.wav in Resources */,
+				92591A5A1B3020E40096C04F /* game4.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92654A9F1B298F4100CFF248 /* ViewController.m in Sources */,
+				92654A9F1B298F4100CFF248 /* MainController.m in Sources */,
 				92654A9C1B298F4100CFF248 /* AppDelegate.m in Sources */,
+				92654ABE1B298FB000CFF248 /* PLLScrathView.m in Sources */,
+				92654ACD1B2ADF0700CFF248 /* MultiMutableArray.m in Sources */,
+				92654AD01B2AEBEB00CFF248 /* selectCharacterViewController.m in Sources */,
+				92793D751B2C92AA007B9867 /* WelcomeViewController.m in Sources */,
 				92654A991B298F4100CFF248 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +308,6 @@
 			targetProxy = 92654AAD1B298F4100CFF248 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		92654AA01B298F4100CFF248 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92654AA11B298F4100CFF248 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		92654AA51B298F4100CFF248 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92654AA61B298F4100CFF248 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		92654AB41B298F4100CFF248 /* Debug */ = {
@@ -347,6 +394,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guagua/guagua-Prefix.pch";
 				INFOPLIST_FILE = guagua/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +406,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guagua/guagua-Prefix.pch";
 				INFOPLIST_FILE = guagua/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +467,7 @@
 				92654AB81B298F4100CFF248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92654AB91B298F4100CFF248 /* Build configuration list for PBXNativeTarget "guaguaTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +476,7 @@
 				92654ABB1B298F4100CFF248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
