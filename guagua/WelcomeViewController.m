@@ -10,6 +10,10 @@
 #import "selectCharacterViewController.h"
 #import <AudioToolbox/AudioToolbox.h>
 
+
+#define ACCESS @"access"
+#define NOT_ACCESS @"not_access"
+
 @interface WelcomeViewController ()<UIGestureRecognizerDelegate>
 /* background image */
 @property (strong,nonatomic) UIImageView *backgroundImage;
@@ -78,7 +82,11 @@ static SystemSoundID shake_sound_male_id = 0;
 }
 
 -(void)loadParameter{
-    
+    //game init
+    [self saveGame:1 access:ACCESS];
+    [self saveGame:2 access:NOT_ACCESS];
+    [self saveGame:3 access:NOT_ACCESS];
+    [self saveGame:4 access:NOT_ACCESS];
 }
 
 
@@ -116,6 +124,37 @@ static SystemSoundID shake_sound_male_id = 0;
     
 }
 
+
+#pragma mark - save game level
+
+-(void)saveGame:(int)level access:(NSString *)isAccess{
+    
+    NSUserDefaults *gameLevel = [NSUserDefaults standardUserDefaults];
+    switch (level) {
+        case 1:
+            [gameLevel setObject:isAccess forKey:[NSString stringWithFormat:@"%d",level]];
+            [gameLevel synchronize];
+            break;
+            
+        case 2:
+            [gameLevel setObject:isAccess forKey:[NSString stringWithFormat:@"%d",level]];
+            [gameLevel synchronize];
+            break;
+            
+        case 3:
+            [gameLevel setObject:isAccess forKey:[NSString stringWithFormat:@"%d",level]];
+            [gameLevel synchronize];
+            break;
+            
+        case 4:
+            [gameLevel setObject:isAccess forKey:[NSString stringWithFormat:@"%d",level]];
+            [gameLevel synchronize];
+            
+            break;
+    }
+    
+    
+}
 
 #pragma mark - sound 
 -(void) playSound

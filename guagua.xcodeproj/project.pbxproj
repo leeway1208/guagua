@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		924B03CB1B40EBCC002743E4 /* takeoff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 924B03CA1B40EBCC002743E4 /* takeoff.mp3 */; };
 		92591A4B1B2FC65D0096C04F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92591A4A1B2FC65D0096C04F /* AudioToolbox.framework */; };
 		92591A501B301F410096C04F /* girl_smile.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92591A4F1B301F410096C04F /* girl_smile.wav */; };
 		92591A521B3020800096C04F /* shuqing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92591A511B3020800096C04F /* shuqing.wav */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		924B03CA1B40EBCC002743E4 /* takeoff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = takeoff.mp3; sourceTree = "<group>"; };
 		92591A4A1B2FC65D0096C04F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		92591A4F1B301F410096C04F /* girl_smile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = girl_smile.wav; sourceTree = "<group>"; };
 		92591A511B3020800096C04F /* shuqing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shuqing.wav; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		92591A4C1B2FCF1D0096C04F /* sound */ = {
 			isa = PBXGroup;
 			children = (
+				924B03CA1B40EBCC002743E4 /* takeoff.mp3 */,
 				92591A531B3020E40096C04F /* game1.mp3 */,
 				92591A541B3020E40096C04F /* game2.mp3 */,
 				92591A551B3020E40096C04F /* game3.mp3 */,
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92591A571B3020E40096C04F /* game1.mp3 in Resources */,
+				924B03CB1B40EBCC002743E4 /* takeoff.mp3 in Resources */,
 				92591A591B3020E40096C04F /* game3.mp3 in Resources */,
 				92654AC51B29924800CFF248 /* Default@2x.png in Resources */,
 				92654AA41B298F4100CFF248 /* Images.xcassets in Resources */,
